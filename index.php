@@ -16,11 +16,13 @@
                 Devi sempre rispettarla
                 Con i Puffi puoi aiutarla se lo vuoi
                 Rispettiamo la natura ed allora il mondo guarirà';
+      $len_text = strlen($text_song);
     ?>
 
     <h1>I Puffi sanno </h1>
 
-    <p>  <?php echo $text_song; ?></p>
+    <p>  <?php echo $text_song; ?> </p>
+    <p> Il testo è lungo: <?php echo $len_text ?> caratteri.</p>
 
   </body>
 </html>
