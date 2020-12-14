@@ -5,10 +5,22 @@
     <title>Badworks</title>
   </head>
   <body>
-    <h1>Ciao PHP</h1>
+    <h2>Ciao PHP!</h2>
 
     <?php
-      // codice php 
+      // codice php
+      $text_song = 'I Puffi sanno che un tesoro c è
+                Nel fiore accanto a te
+                Madre Natura pensa sempre a noi
+                Con i Puffi puoi aiutarla
+                Devi sempre rispettarla
+                Con i Puffi puoi aiutarla se lo vuoi
+                Rispettiamo la natura ed allora il mondo guarirà';
     ?>
+
+    <h1>I Puffi sanno </h1>
+
+    <p>  <?php echo $text_song; ?></p>
+
   </body>
 </html>
